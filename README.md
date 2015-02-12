@@ -1,7 +1,6 @@
 Chocolatey
 ----------
 Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get, but built with Windows in mind.
-![Chocolatey](http://stash.akqa.net/projects/GDO/repos/chocolatey/browse/nugetlogo.png?at=e38167cf22f85bb171897b41b9044015bc43e3b3&raw "Image of NUGET")
 
 http://chocolatey.org/
 

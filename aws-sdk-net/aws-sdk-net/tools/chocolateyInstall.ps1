@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'aws-sdk-net.portable' 'aws-sdk-net.install'

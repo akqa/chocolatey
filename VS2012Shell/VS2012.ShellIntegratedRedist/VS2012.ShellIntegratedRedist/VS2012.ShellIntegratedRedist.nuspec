@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VS2012.ShellIntegratedRedist</id>
+    <title>VS2012.ShellIntegratedRedist</title>
+    <version>__REPLACE__</version>
+    <authors>__REPLACE__</authors>
+    <owners>Regardt Meyer</owners>
+    <summary>VS2012.ShellIntegratedRedist</summary>
+    <description>VS2012.ShellIntegratedRedist</description>
+    <projectUrl>__REPLACE__</projectUrl>
+    <tags>VS2012.ShellIntegratedRedist</tags>
+    <copyright></copyright>
+    <licenseUrl>__REPLACE__</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/AKQA/master/VS2012.ShellIntegratedRedist/VS2012.ShellIntegratedRedist.png</iconUrl>-->
+    <dependencies>
+      <dependency id="VS2012.ShellIntegratedRedist.install" version="[__REPLACE__]" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

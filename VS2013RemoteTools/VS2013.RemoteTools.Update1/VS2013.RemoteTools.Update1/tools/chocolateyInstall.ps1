@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'VS2013.RemoteTools.Update1.portable' 'VS2013.RemoteTools.Update1.install'

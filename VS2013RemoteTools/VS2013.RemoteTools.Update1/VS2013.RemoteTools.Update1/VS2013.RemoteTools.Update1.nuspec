@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VS2013.RemoteTools.Update1</id>
+    <title>VS2013.RemoteTools.Update1</title>
+    <version>__REPLACE__</version>
+    <authors>__REPLACE__</authors>
+    <owners>Regardt Meyer</owners>
+    <summary>VS2013.RemoteTools.Update1</summary>
+    <description>VS2013.RemoteTools.Update1</description>
+    <projectUrl>__REPLACE__</projectUrl>
+    <tags>VS2013.RemoteTools.Update1</tags>
+    <copyright></copyright>
+    <licenseUrl>__REPLACE__</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/AKQA/master/VS2013.RemoteTools.Update1/VS2013.RemoteTools.Update1.png</iconUrl>-->
+    <dependencies>
+      <dependency id="VS2013.RemoteTools.Update1.install" version="[__REPLACE__]" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

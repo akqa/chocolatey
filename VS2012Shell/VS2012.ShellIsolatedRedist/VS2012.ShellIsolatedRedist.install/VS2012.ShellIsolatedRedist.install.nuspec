@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VS2012.ShellIsolatedRedist</id>
+    <title>VS2012.ShellIsolatedRedist</title>
+    <version>1.0</version>
+    <authors>Microsoft</authors>
+    <owners>Regardt Meyer</owners>
+    <summary>VS2012.ShellIsolatedRedist</summary>
+    <description>VS2012.ShellIsolatedRedist</description>
+    <projectUrl>http://www.microsoft.com/en-gb/download/details.aspx?id=30670</projectUrl>
+    <tags>VS2012.ShellIsolatedRedist</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.microsoft.com/en-gb/download/details.aspx?id=30670</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/AKQA/master/VS2012.ShellIsolatedRedist/VS2012.ShellIsolatedRedist.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="VS2012.ShellIsolatedRedist.install" version="4.0" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

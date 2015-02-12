@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'VS2012.ShellIntegratedRedist.portable' 'VS2012.ShellIntegratedRedist.install'

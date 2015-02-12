@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>nunit</id>
+    <title>nunit</title>
+    <version>__REPLACE__</version>
+    <authors>__REPLACE__</authors>
+    <owners>Regardt Meyer</owners>
+    <summary>nunit</summary>
+    <description>nunit</description>
+    <projectUrl>__REPLACE__</projectUrl>
+    <tags>nunit</tags>
+    <copyright></copyright>
+    <licenseUrl>__REPLACE__</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/AKQA/master/nunit/nunit.png</iconUrl>-->
+    <dependencies>
+      <dependency id="nunit.install" version="[__REPLACE__]" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

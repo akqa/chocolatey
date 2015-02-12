@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'nunit.portable' 'nunit.install'

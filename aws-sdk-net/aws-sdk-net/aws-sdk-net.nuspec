@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>aws-sdk-net</id>
+    <title>aws-sdk-net</title>
+    <version>__REPLACE__</version>
+    <authors>__REPLACE__</authors>
+    <owners>Regardt Meyer</owners>
+    <summary>aws-sdk-net</summary>
+    <description>aws-sdk-net</description>
+    <projectUrl>__REPLACE__</projectUrl>
+    <tags>aws-sdk-net</tags>
+    <copyright></copyright>
+    <licenseUrl>__REPLACE__</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/AKQA/master/aws-sdk-net/aws-sdk-net.png</iconUrl>-->
+    <dependencies>
+      <dependency id="aws-sdk-net.install" version="[__REPLACE__]" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

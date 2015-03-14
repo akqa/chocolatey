@@ -3,21 +3,41 @@
   <metadata>
     <id>nunit</id>
     <title>NUnit (Install)</title>
-    <version>2.6.3.20140715</version>
+    <version>2.6.4</version>
     <authors>AKQA</authors>
     <owners>Regardt Meyer</owners>
-    <summary>nunit</summary>
-    <description>nunit</description>
-    <projectUrl>http://www.nunit.org/index.php?p=home</projectUrl>
+    <summary>NUnit is a unit-testing framework for all .Net languages.</summary>
+    <description>NUnit is a unit-testing framework for all .Net languages. Initially ported from JUnit, the current production release, version 2.6, is the seventh major release of this xUnit based unit testing tool for Microsoft .NET. It is written entirely in C# and has been completely redesigned to take advantage of many .NET language features, for example custom attributes and other reflection related capabilities. NUnit brings xUnit to all .NET languages.</description>
+    <projectUrl>http://www.nunit.org</projectUrl>
     <tags>nunit</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.nunit.org/index.php?p=license&amp;=2.6.3</licenseUrl>
+    <licenseUrl>http://www.nunit.org/nuget/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://raw.github.com/AKQA/master/nunit/nunit.png</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+NUnit 2.6.4 - Version 2.6.4.14350 - December 16, 2014
+
+General
+
+NUnit 2.6.4 no longer attempts to load tests compiled against NUnit 3.0, which it is unable to run correctly. Previously, the tests appeared to run partially, but either failed silently or gave confusing messages. It's necessary to use a 3.0 runner to run 3.0 tests.
+Framework
+
+Async tests are now supported under.NET 4.0
+Bug Fixes
+
+4 AsyncStateMachineAttribute should only be checked by name
+6 Is.InRange Constraint ambiguity
+7 EquivalentTo isn't compatible with Ignorecase for char
+8 EquivalentTo isn't compatible with Ignorecase for dictionaries
+9 Incorrect XML comments for CollectionAssert.IsSubsetOf
+13 TestCaseSourceAttribute documentation
+14 Path-related tests fail on Linux
+15 Async tests should be supported for projects that target .NET 4.0
+16 Matches(Constraint) does not work as expected
+18 Specifying a tolerance with "Within" doesn't work for DateTimeOffset data types
+22 Include/exclude command line switch not respected between runs
+28 Assert.Pass with \]\]\> in message crashes console runner
+30 NUnit V2 is still checking for NUnitLite 3.0
+	</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
